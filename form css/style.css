@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.content{
+ background-color: #ccc;
+ width: 800px;
+ /* height: 370px; */
+ border: 2px black solid;
+ padding: 30px 30px 30px 30px;
+border-radius: 5px;
+}
+.form-lab{
+    font-size: 20px;
+    color: black;
+}
+.form-inp{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0 15px 0;
+    border-radius: 5px;
+    border: solid 1px black;
+
+}
+.form-btn{
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

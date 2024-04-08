@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+ 
+}
+.parent{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    column-gap: 10px;
+}
+.card{
+        width: 120px;
+        border: 1px #ccc solid;
+        height: 150px;
+        margin-top: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+P{
+    text-align: center;
+}
+.card:hover{
+    border: #777 1px solid;
+}
+
+
